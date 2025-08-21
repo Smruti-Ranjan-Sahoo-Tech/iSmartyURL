@@ -1,0 +1,31 @@
+{
+  "name": "short-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required for Node.js'",
+    "prod": "NODE_ENV=production node index.js"
+  },
+  "keywords": ["url-shortener", "mern", "nodejs", "express"],
+  "author": "Your Name",
+  "license": "ISC",
+  "description": "A URL shortening service built with Node.js, Express, and MongoDB",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "nanoid": "^5.1.5",
+    "shortid": "^2.2.17"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
